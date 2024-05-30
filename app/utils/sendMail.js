@@ -13,7 +13,7 @@ try {
   
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "ejaz.eleads@gmail.com",
+      to: "alonemja@gmail.com",
       subject: "Let's work together service",
       text: `You have a new client service requirement:
         First Name: ${data.firstname}
