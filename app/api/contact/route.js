@@ -1,4 +1,4 @@
-import clientPromise from '@/app/Db/mongodb';
+// import clientPromise from '@/app/Db/mongodb';
 import { sendMail } from '@/app/utils/sendMail';
 import { NextResponse } from 'next/server';
 
@@ -8,12 +8,12 @@ export async function POST(req) {
     const formData = await req.json();
 
     // Save form data to MongoDB
-    const client = await clientPromise;
-    const db = client.db();
-    const contact =  await db.collection('contacts').insertOne(formData);
-    if(!contact.insertedId){
-        throw new Error('contact not found !');
-    }
+    // const client = await clientPromise;
+    // const db = client.db();
+    // const contact =  await db.collection('contacts').insertOne(formData);
+    // if(!contact.insertedId){
+    //     throw new Error('contact not found !');
+    // }
 
     await sendMail(formData);
     return NextResponse.json({ success: true, message: 'Form submitted successfully' });
