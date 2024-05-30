@@ -60,7 +60,7 @@ const Contact = () => {
 
     try {
       console.log(formData)
-      const response = await fetch("/app/api/contact", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
