@@ -26,11 +26,11 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Ejaz Ali",
+      fieldValue: "Md Jawed Ansari",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+91) 6206954492",
+      fieldValue: "(+91) 7491938225",
     },
     {
       fieldName: "Experience",
@@ -38,7 +38,7 @@ const about = {
     },
     {
       fieldName: "Skype",
-      fieldValue: "ejaz.01",
+      fieldValue: "jawed0216",
     },
     {
       fieldName: "Nationality",
@@ -46,7 +46,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "ejaz84916@gmail.com",
+      fieldValue: "jawed0216@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -89,37 +89,27 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Completed Bachelor's degree in Computer Science from Greater Noida Institute of Technology in 2021, equipped with comprehensive knowledge in computer science principles and practices. ",
+    "Completed Bachelor's degree in Electrical & Electronics from Jawaharlal Nehru Technological U&niversity Kakinada in 2017, equipped with comprehensive knowledge in Electrical & Electronics principles and practices. ",
   items: [
     {
-      institution: "Kamran (MANUU) model school",
-      degree: "Matriculation ",
-      duration: "2013-2014",
+      institution: "Physics Wallah Skills",
+      degree: "Full Stack Web Developer",
+      duration: "Jan 2023 - Oct 2023",
     },
     {
-      institution: "M.L.S.M College Darbhanga",
+      institution: "Jawaharlal Nehru Technogical University Kakinada (JNTUK)",
+      degree: "Bachelor of Technology (Electrical & Electronics)",
+      duration: "2013 - 2017",
+    },
+    {
+      institution: "U. R. College Rosera",
       degree: "Intermediate ",
-      duration: "2014 - 2016",
+      duration: "2011 - 2013",
     },
     {
-      institution: "Greater Noida Institute of Technology (GNIOT)",
-      degree: "Bachelor of Technology (Computer Science)",
-      duration: "2017 - 2021",
-    },
-    {
-      institution: "Dice Accademy",
-      degree: "Frontend Developer",
-      duration: "Feb 2022 - Sep 2022",
-    },
-    {
-      institution: "Greater Noida Institute of Technology (GNIOT)",
-      degree: "Bachelor of Technology (Computer Science)",
-      duration: "2017 - 2021",
-    },
-    {
-      institution: "Innobite Services",
-      degree: "Fullstack Developer",
-      duration: "May 2024 - current",
+      institution: "Rosera Higher Secondary school",
+      degree: "Matriculation ",
+      duration: "2010-2011",
     },
   ],
 };

@@ -11,7 +11,7 @@ const Details = () => {
       <span className="text-xl">Frontend Developer</span>
       <h1 className="h1 mb-6">
         Hello I'm <br />
-        <motion.span className="text-accent">Ejaz Ali</motion.span>
+        <motion.span className="text-accent">Md Jawed Ansari</motion.span>
       </h1>
       <p className="mx-w-[500px] mb-9 text-white/80">
         I excel at crafting elegant digital experiences using HTML, CSS,

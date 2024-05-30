@@ -11,7 +11,7 @@ function Header() {
         <div className="">
           <Link className="flex  gap-4 text-4xl font-semibold " href="/">
             <h1 className="text-4xl font-semibold flex items-baseline gap-4 ">
-              Ejaz 
+              Jawed 
             </h1>
             <span className="text-accent ">.</span>
           </Link>
