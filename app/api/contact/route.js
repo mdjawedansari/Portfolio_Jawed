@@ -1,4 +1,4 @@
-import clientPromise from '@app/Db/mongodb';
+import clientPromise from '@/app/Db/mongodb';
 import { sendMail } from '@/app/utils/sendMail';
 import { NextResponse } from 'next/server';
 
