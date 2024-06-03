@@ -11,15 +11,15 @@ const socials = [
   },
   {
     icon: <FaLinkedin />,
-    path: "https://www.linkedin.com/in/ejaz-ali-329646133/",
+    path: "https://www.linkedin.com/in/md-jawed-ansari-b672b9198/",
   },
   {
     icon: <FaTwitter />,
-    path: "https://x.com/Ejaz_Ali001",
+    path: "",
   },
   {
     icon: <FaInstagram />,
-    path: "https://www.instagram.com/coders_clinic?igsh=cDhpcWJndThyZGll&utm_source=qr",
+    path: "",
   },
 ];
 
