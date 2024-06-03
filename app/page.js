@@ -4,7 +4,7 @@ import Stats from '@/components/Stats';
 import React from 'react';
 
 export const metadata = {
-  title: "Ejaz Portfolio | Home 🏠",
+  title: "Jawed Portfolio | Home 🏠",
   description: "Best portfolio website ",
 };
 

@@ -1,7 +1,7 @@
 import WorkPage from "@/components/WorkPage";
 
 export const metadata = {
-  title: "Ejaz Portfolio | work",
+  title: "Jawed Portfolio | Work 💼",
   description: "Showcasing expertise as both a frontend and backend developer, delivering high-quality web solutions with proficiency in a variety of technologies. Explore my work in frontend and backend development here.",
 };
 

@@ -12,7 +12,7 @@ const JetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Ejaz Portfolio | Home 🏠",
+  title: "Jawed Portfolio | Home 🏠",
   description: "Best portfolio website ",
 };
 
