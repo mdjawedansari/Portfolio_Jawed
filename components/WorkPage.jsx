@@ -31,7 +31,7 @@ const projects = [
       { name: "Tailwind.css" },
     ],
     image: "/assets/work/thumb1.png",
-    live: "",
+    live: "https://ecommerce-frontend-mauve-three.vercel.app/",
     github: "",
   },
   {
