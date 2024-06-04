@@ -2,7 +2,7 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-  Fa5,
+  FaHtml5,
   FaCss3,
   FaJs,
   FaReact,
@@ -60,29 +60,29 @@ const about = {
 };
 
 // experience
-const experience = {
-  icon: "/assets/resume/badge.svg",
-  title: "My Experience",
-  description:
-    "With expertise in frontend and backend development from internships at Foxmula and Eleadsmedia, I craft seamless digital experiences and deliver high-quality web applications using React.js, Node.js, and MongoDB in my current full-time role.",
-  items: [
-    {
-      company: "Foxmula",
-      position: "Frontend Developer ",
-      duration: "Oct 2022 - Apr 2023",
-    },
-    {
-      company: "Eleads Media",
-      position: "Frontend Developer ",
-      duration: "May 2023 - Sep 2023",
-    },
-    {
-      company: "Eleads Media",
-      position: "Fullstack Developer ",
-      duration: "Sep 2023 - May 2024",
-    },
-  ],
-};
+// const experience = {
+//   icon: "/assets/resume/badge.svg",
+//   title: "My Experience",
+//   description:
+//     "With expertise in frontend and backend development from internships at Foxmula and Eleadsmedia, I craft seamless digital experiences and deliver high-quality web applications using React.js, Node.js, and MongoDB in my current full-time role.",
+//   items: [
+//     {
+//       company: "Foxmula",
+//       position: "Frontend Developer ",
+//       duration: "Oct 2022 - Apr 2023",
+//     },
+//     {
+//       company: "Eleads Media",
+//       position: "Frontend Developer ",
+//       duration: "May 2023 - Sep 2023",
+//     },
+//     {
+//       company: "Eleads Media",
+//       position: "Fullstack Developer ",
+//       duration: "Sep 2023 - May 2024",
+//     },
+//   ],
+// };
 
 // Education
 const education = {
@@ -113,7 +113,7 @@ const education = {
     },
   ],
 };
-
+ 
 // skills data
 const skills = {
   title: "My skills",
@@ -121,8 +121,8 @@ const skills = {
     "Proficient in , CSS, JavaScript, React.js, Node.js, and MongoDB. Skilled in frontend and backend development, creating dynamic web applications with a focus on performance and user experience. ",
   items: [
     {
-      icon: <Fa5 />,
-      name: " 5",
+      icon: <FaHtml5 />,
+      name: " HTML5",
     },
     {
       icon: <FaCss3 />,
