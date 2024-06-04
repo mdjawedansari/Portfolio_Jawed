@@ -2,7 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const socials = [
   {
@@ -14,8 +15,8 @@ const socials = [
     path: "https://www.linkedin.com/in/md-jawed-ansari-b672b9198/",
   },
   {
-    icon: <FaTwitter />,
-    path: "",
+    icon: <BiLogoGmail />,
+    path: "mailto:jawed0216@gmail.com",
   },
   {
     icon: <FaInstagram />,
