@@ -31,7 +31,7 @@ const Photo = () => {
           className="w-[250px] h-[250px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute "
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/photo.jpg"
             priority
             // loader={<h3>Loading...</h3>}
             quality={100}
