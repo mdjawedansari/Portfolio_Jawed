@@ -2,7 +2,7 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
-  FaHtml5,
+  Fa5,
   FaCss3,
   FaJs,
   FaReact,
@@ -118,11 +118,11 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Proficient in HTML, CSS, JavaScript, React.js, Node.js, and MongoDB. Skilled in frontend and backend development, creating dynamic web applications with a focus on performance and user experience. ",
+    "Proficient in , CSS, JavaScript, React.js, Node.js, and MongoDB. Skilled in frontend and backend development, creating dynamic web applications with a focus on performance and user experience. ",
   items: [
     {
-      icon: <FaHtml5 />,
-      name: "Html 5",
+      icon: <Fa5 />,
+      name: " 5",
     },
     {
       icon: <FaCss3 />,
