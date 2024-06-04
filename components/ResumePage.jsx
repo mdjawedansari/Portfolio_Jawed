@@ -122,7 +122,7 @@ const skills = {
   items: [
     {
       icon: <FaHtml5 />,
-      name: " HTML5",
+      name: " HTML 5",
     },
     {
       icon: <FaCss3 />,
