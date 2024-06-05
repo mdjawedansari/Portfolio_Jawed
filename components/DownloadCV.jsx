@@ -11,7 +11,7 @@ const DownloadCV = () => {
     <motion.div
       whileTap={{ scale: 0.97 }}
     >
-      <Link href='/assets/resume/Frontend Developer' download  target="_blank" rel="noopener noreferrer">      
+      <Link href='/assets/resume/Frontend Developer.pdf' download  target="_blank" rel="noopener noreferrer">      
       <Button
         variant="outline"
         size="lg"
