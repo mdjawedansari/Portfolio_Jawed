@@ -36,7 +36,7 @@ const Photo = () => {
             // loader={<h3>Loading...</h3>}
             quality={100}
             fill
-            alt="Ejaz Ali image"
+            alt="Jawed image"
             sizes="w-full h-full"
             className="object-contain rounded-full "
           />

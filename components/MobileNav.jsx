@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import { useState } from 'react';
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CiMenuFries } from "react-icons/ci";
@@ -33,12 +33,20 @@ const links = [
 
 const MobileNav = () => {
   const pathName = usePathname();
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleItemClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <Sheet>
         <SheetTrigger className="flex justify-center items-center">
-          <CiMenuFries className="text-[32px] text-accent" />
+          <CiMenuFries className="text-[32px] text-accent"  onClick={() => setIsOpen(!isOpen)}/>
         </SheetTrigger>
+        {isOpen && (
         <ScrollArea>
           <SheetContent className="flex flex-col">
             <div className="mt-20 mb-20 ">
@@ -49,9 +57,10 @@ const MobileNav = () => {
               </Link>
             </div>
 
-            <nav className="flex flex-col justify-center items-center gap-8">
+            <nav onClick={handleItemClick} className="flex flex-col justify-center items-center gap-8">
               {links.map((link, index) => (
-                <Link
+                <Link 
+                 
                   href={link.path}
                   key={index}
                   className={`${
@@ -68,6 +77,7 @@ const MobileNav = () => {
             </Link>
           </SheetContent>
         </ScrollArea>
+        )}
       </Sheet>
     </>
   );
