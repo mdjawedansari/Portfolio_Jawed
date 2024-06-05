@@ -42,9 +42,10 @@ const MobileNav = () => {
 
   return (
     <>
-      <Sheet>
+    
+      <Sheet isOpen={isOpen} onOpenChange={setIsOpen}>
         <SheetTrigger className="flex justify-center items-center">
-          <CiMenuFries className="text-[32px] text-accent"  onClick={() => setIsOpen(!isOpen)}/>
+          <CiMenuFries className="text-[32px] text-accent" onClick={() => setIsOpen(!isOpen)}/>
         </SheetTrigger>
         {isOpen && (
         <ScrollArea>
@@ -57,10 +58,10 @@ const MobileNav = () => {
               </Link>
             </div>
 
-            <nav onClick={handleItemClick} className="flex flex-col justify-center items-center gap-8">
+            <nav className="flex flex-col justify-center items-center gap-8">
               {links.map((link, index) => (
                 <Link 
-                 
+                  onClick={handleItemClick}
                   href={link.path}
                   key={index}
                   className={`${
@@ -79,6 +80,7 @@ const MobileNav = () => {
         </ScrollArea>
         )}
       </Sheet>
+      
     </>
   );
 };
