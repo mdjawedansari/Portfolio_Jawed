@@ -34,7 +34,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "1+ Years",
+      fieldValue: "1 Year",
     },
     {
       fieldName: "Skype",
@@ -183,7 +183,7 @@ const ResumePage = () => {
                 <p className="max-w-[650px] text-white/60 mx-auto xl:mx-0 ">
                   {experience?.description}
                 </p>
-                <ScrollArea>+
+                <ScrollArea>
                   <ul className="grid grid-col-1 md:grid-cols-2 gap-[30px]">
                     {experience?.items?.map((item, index) => (
                       <li

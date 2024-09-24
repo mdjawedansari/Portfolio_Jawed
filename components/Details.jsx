@@ -15,7 +15,7 @@ const Details = () => {
       </h1>
       <p className="mx-w-[500px] mb-9 text-white/80">
         I excel at crafting elegant digital experiences using HTML, CSS,
-        JavaScript, React.js, Node.js, and MongoDB.
+        JavaScript, React.js, Redux-Toolkit, Node.js, and MongoDB.
       </p>
 
       {/* button and socials */}
