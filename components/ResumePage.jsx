@@ -60,29 +60,19 @@ const about = {
 };
 
 // experience
-// const experience = {
-//   icon: "/assets/resume/badge.svg",
-//   title: "My Experience",
-//   description:
-//     "With expertise in frontend and backend development from internships at Foxmula and Eleadsmedia, I craft seamless digital experiences and deliver high-quality web applications using React.js, Node.js, and MongoDB in my current full-time role.",
-//   items: [
-//     {
-//       company: "Foxmula",
-//       position: "Frontend Developer ",
-//       duration: "Oct 2022 - Apr 2023",
-//     },
-//     {
-//       company: "Eleads Media",
-//       position: "Frontend Developer ",
-//       duration: "May 2023 - Sep 2023",
-//     },
-//     {
-//       company: "Eleads Media",
-//       position: "Fullstack Developer ",
-//       duration: "Sep 2023 - May 2024",
-//     },
-//   ],
-// };
+const experience = {
+  icon: "/assets/resume/badge.svg",
+  title: "My Experience",
+  description:
+    "With expertise in frontend development at Dream Steps Technologies, I craft seamless digital experiences and deliver high-quality web applications using React.js, Tailwind CSS, and Redux Toolkit in my current full-time role.",
+  items: [
+    {
+      company: "Dream Steps Technologies",
+      position: "Frontend Developer ",
+      duration: "Dec 2023 - Present",
+    },
+  ],
+};
 
 // Education
 const education = {
@@ -187,7 +177,7 @@ const ResumePage = () => {
 
           <div className="min-h-[70vh] w-full">
             {/* experience */}
-            {/* <TabsContent value="experience" className="w-full">
+            <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center  xl:text-left ">
                 <h3 className="text-4xl font-bold ">{experience?.title}</h3>
                 <p className="max-w-[650px] text-white/60 mx-auto xl:mx-0 ">
@@ -205,16 +195,16 @@ const ResumePage = () => {
                           {item?.position}
                         </h3>
                         <div className="flex items-center gap-3">
-                          {/* dot */}
-                          {/* <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                          dot
+                          <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                           <p className="text-white/60">{item?.company}</p>
-                        </div> */}
-                      {/* </li>
+                        </div>
+                      </li>
                     ))}
                   </ul>
                 </ScrollArea>
               </div>
-            </TabsContent> */}
+            </TabsContent>
 
             {/* education */}
             <TabsContent value="education" className="w-full">
