@@ -16,7 +16,7 @@ const socials = [
   },
   {
     icon: <BiLogoGmail />,
-    path: "mailto:jawed0216@gmail.com",
+    // path: "mailto:jawed0216@gmail.com",
   },
   // {
   //   icon: <FaInstagram />,

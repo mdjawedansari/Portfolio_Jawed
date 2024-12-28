@@ -19,16 +19,16 @@ import toast from "react-hot-toast";
 
 
 const info = [
-  {
-    icon: <FaPhoneAlt />,
-    title: "Phone",
-    description: "(+91) 7491938225",
-  },
-  {
-    icon: <FaEnvelope />,
-    title: "Email",
-    description: "jawed0216@gmail.com",
-  },
+  // {
+  //   icon: <FaPhoneAlt />,
+  //   title: "Phone",
+  //   description: "(+91) 7491938225",
+  // },
+  // {
+  //   icon: <FaEnvelope />,
+  //   title: "Email",
+  //   description: "jawed0216@gmail.com",
+  // },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
