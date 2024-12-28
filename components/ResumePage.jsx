@@ -30,7 +30,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+91) 7491938225",
+      fieldValue: "(+91) 0000000000",
     },
     {
       fieldName: "Experience",
@@ -38,7 +38,7 @@ const about = {
     },
     {
       fieldName: "Skype",
-      fieldValue: "jawed0216",
+      fieldValue: "testing",
     },
     {
       fieldName: "Nationality",
@@ -46,7 +46,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "jawed0216@gmail.com",
+      fieldValue: "testing@gmail.com",
     },
     {
       fieldName: "Freelance",
