@@ -16,7 +16,7 @@ const socials = [
   },
   {
     icon: <BiLogoGmail />,
-    path: "mailto:testing@gmail.com",
+    path: "mailto:j",
   },
   {
     icon: <FaInstagram />,
