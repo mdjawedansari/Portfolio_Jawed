@@ -28,26 +28,26 @@ const about = {
       fieldName: "Name",
       fieldValue: "Md Jawed Ansari",
     },
-    // {
-    //   fieldName: "Phone",
-    //   fieldValue: "(+91) 7491938225",
-    // },
+    {
+      fieldName: "Phone",
+      fieldValue: "(+91) 7491938225",
+    },
     {
       fieldName: "Experience",
       fieldValue: "1 Year",
     },
-    // {
-    //   fieldName: "Skype",
-    //   fieldValue: "jawed0216",
-    // },
+    {
+      fieldName: "Skype",
+      fieldValue: "jawed0216",
+    },
     {
       fieldName: "Nationality",
       fieldValue: "Indian",
     },
-    // {
-    //   fieldName: "Email",
-    //   fieldValue: "jawed0216@gmail.com",
-    // },
+    {
+      fieldName: "Email",
+      fieldValue: "jawed0216@gmail.com",
+    },
     {
       fieldName: "Freelance",
       fieldValue: "Available",

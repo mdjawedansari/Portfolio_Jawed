@@ -16,12 +16,12 @@ const socials = [
   },
   {
     icon: <BiLogoGmail />,
-    // path: "mailto:jawed0216@gmail.com",
+    path: "mailto:jawed0216@gmail.com",
   },
-  // {
-  //   icon: <FaInstagram />,
-  //   path: "",
-  // },
+  {
+    icon: <FaInstagram />,
+    path: "",
+  },
 ];
 
 const Socials = ({ containerStyles, iconStyles }) => {
